@@ -13,7 +13,7 @@
 
     --h1-font-weight: 400;
     --h2-font-weight: 200;
-    --h3-font-weight: 200;
+    --h3-font-weight: 300;
 
     --h1-letter-spacing: -0.02em;
     --h2-letter-spacing: -0.02em;
@@ -24,6 +24,12 @@
     --secondary: #bfbfbfcf;
 
     --background: #0b1821;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 h1 {
@@ -72,6 +78,21 @@ body:before {
     pointer-events: none;
     filter: blur(250px);
     opacity: 0.6;
+}
+
+.title {
+    background: -webkit-linear-gradient(#fff, #a5a5a5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    background: -webkit-linear-gradient(#58ffb4, #289061);
+    /* background: -webkit-linear-gradient(#ffbf58, #904928); */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent
 }
 
 @layer utilities {
