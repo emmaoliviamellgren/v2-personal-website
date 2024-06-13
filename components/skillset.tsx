@@ -16,7 +16,7 @@ const skills: Skill = [
 
 const Skillset = () => {
     return (
-        <div className='py-6'>
+        <div className='py-6 md:py-8 lg:py-12'>
             <div className='flex items-center gap-2 pb-2 md:pb-4'>
                 <span>
                     <MdArrowRight />
