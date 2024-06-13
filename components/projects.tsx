@@ -12,7 +12,7 @@ const projects: ProjectProps[] = [
     },
     {
         title: 'TaskWise',
-        description: 'An intuitive and user-friendly todo web application built with Next.js and Firebase. Taskwise allows users to manage their tasks efficiently by adding, updating, and deleting todo items. The application also features user authentication and authorization.',
+        description: 'An intuitive and user-friendly todo web application built with Next.js and Firebase. TaskWise allows users to manage their tasks efficiently by adding, updating, and deleting todo items. The application also features user authentication and authorization.',
         techStack: ['Next.js', 'Firebase', 'Clerk', 'Vercel'],
         github: 'https://github.com/emmaoliviamellgren/taskwise',
         demo: 'https://taskwise.vercel.app/',

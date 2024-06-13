@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
     --h1-font-size: 1.75rem;
     --h2-font-size: 1.5rem;
@@ -69,16 +70,13 @@ h3 {
     letter-spacing: var(--h3-letter-spacing);
 }
 
-::selection {
-    background-color: #eeeeee2b;
-    color: var(--text-secondary);
-}
-
 body {
     margin: 0;
     background-color: var(--background);
     color: var(--primary);
     min-height: 100vh;
+    user-select: none;
+    -webkit-user-select : none;
 }
 
 body:before {
@@ -107,7 +105,6 @@ body:before {
 
 .subtitle {
     background: -webkit-linear-gradient(#58ffb4, #289061);
-    /* background: -webkit-linear-gradient(#ffbf58, #904928); */
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
