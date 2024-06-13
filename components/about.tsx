@@ -9,7 +9,7 @@ const About = () => {
                 </span>
                 <p className='text-primary'>About me</p>
             </div>
-            <p className='text-primary-muted'>
+            <p className='text-primary-muted text-base leading-7'>
                 Hi, I{"'"}m Emma, currently studying to become a Front End
                 Developer. I{"'"}m passionate about learning all things tech, an
                 interest that started super young. It apparently has continued,
