@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-    --h1-font-size: 2.5rem;
-    --h2-font-size: 2rem;
-    --h3-font-size: 1.75rem;
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
 
     --h1-line-height: 1.2;
     --h2-line-height: 1.3;
@@ -18,6 +18,12 @@
     --h1-letter-spacing: -0.02em;
     --h2-letter-spacing: -0.02em;
     --h3-letter-spacing: -0.02em;
+
+    --title-font-size: 2.5rem;
+    --title-font-weight: 400;
+
+    --subtitle-font-size: 1.5rem;
+    --subtitle-font-weight: 300;
 
     --primary: #eee;
     --primary-muted: #c1c1c1;
@@ -95,6 +101,8 @@ body:before {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
 }
 
 .subtitle {
@@ -103,4 +111,6 @@ body:before {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: var(--subtitle-font-size);
+    font-weight: var(--subtitle-font-weight);
 }

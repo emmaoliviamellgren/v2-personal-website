@@ -1,4 +1,4 @@
-import { Head, Navigation, About, Skillset } from '@/components';
+import { About, Head, Navigation, Skillset, Projects } from '@/components';
 
 const IndexPage = () => {
     return (
@@ -7,6 +7,7 @@ const IndexPage = () => {
             <Head />
             <About />
             <Skillset />
+            <Projects />
         </div>
     );
 };
