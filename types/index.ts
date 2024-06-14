@@ -6,6 +6,12 @@ export interface ProjectProps {
     demo?: string;
 }
 
+export interface SocialsProps {
+    github: string;
+    linkedin: string;
+    email: string;
+}
+
 export interface ExternalLinkProps
     extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
     href: string;
