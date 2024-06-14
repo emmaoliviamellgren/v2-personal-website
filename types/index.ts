@@ -10,6 +10,7 @@ export interface SocialsProps {
     github: string;
     linkedin: string;
     email: string;
+    className?: string;
 }
 
 export interface ExternalLinkProps

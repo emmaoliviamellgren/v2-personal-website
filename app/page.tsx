@@ -11,7 +11,7 @@ const IndexPage = () => {
     return (
         <div className='flex'>
             <aside className='hidden xl:flex'>
-                <SocialsBox />
+                <SocialsBox className='group'/>
             </aside>
             <main className='container'>
                 <Head />
