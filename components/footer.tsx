@@ -1,8 +1,15 @@
-import { ExternalLink } from '.';
+import { ExternalLink, Socials } from '.';
 
 const Footer = () => {
     return (
-        <div className='flex justify-center text-center items-end lg:items-center relative h-24 px-6 md:h-36'>
+        <div className='flex flex-col gap-2 justify-center text-center items-center relative h-24 px-6 md:h-36'>
+            <span className='hidden md:block xl:hidden'>
+                <Socials
+                    github='https://github.com/emmaoliviamellgren'
+                    linkedin='https://linkedin.com/in/emma-m-945954192'
+                    email='mellgrenemma0@gmail.com'
+                />
+            </span>
             <p className='leading-6 text-secondary font-light text-sm'>
                 Developed with ♡ by Emma. Built with{' '}
                 <ExternalLink href='https://nextjs.org'>Next.js</ExternalLink>,

@@ -6,5 +6,6 @@ export { default as Projects } from './projects';
 export { default as Socials } from './socials';
 
 export { default as ProjectBox } from './projectBox';
+export { default as SocialsBox } from './socialsBox';
 export { default as ExternalLink } from './externalLink';
 export { default as Heading } from './heading';

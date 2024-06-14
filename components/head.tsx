@@ -1,3 +1,5 @@
+import { Socials } from '.';
+
 const Head = () => {
     return (
         <div className='flex md:justify-center md:items-center flex-col gap-2 pb-6 md:pt-8 lg:pt-24'>
@@ -10,6 +12,13 @@ const Head = () => {
                     {"'"}m eager to learn and grow in tech!
                 </p>
             </div>
+            <span className='block md:hidden'>
+                <Socials
+                    github='https://github.com/emmaoliviamellgren'
+                    linkedin='https://linkedin.com/in/emma-m-945954192'
+                    email='mellgrenemma0@gmail.com'
+                />
+            </span>
         </div>
     );
 };
