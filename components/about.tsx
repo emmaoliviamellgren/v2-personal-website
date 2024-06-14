@@ -1,15 +1,10 @@
-import { MdArrowRight } from 'react-icons/md';
+import { Heading } from '.';
 
 const About = () => {
     return (
         <>
-            <div className='flex items-center gap-2 pb-2 md:pb-4'>
-                <span>
-                    <MdArrowRight />
-                </span>
-                <p className='text-primary'>About me</p>
-            </div>
-            <p className='text-secondary text-base leading-7'>
+            <Heading contentTitle='About me' />
+            <p className='text-base leading-7'>
                 Hi, I{"'"}m Emma! I{"'"}m passionate about learning all things
                 tech, an interest that started super young. It apparently has
                 continued, as I often find myself coding late into the nights!

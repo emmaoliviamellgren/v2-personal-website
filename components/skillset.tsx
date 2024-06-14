@@ -1,4 +1,4 @@
-import { MdArrowRight } from 'react-icons/md';
+import { Heading } from '.';
 
 type Skill = string[];
 
@@ -24,13 +24,8 @@ const skills: Skill = [
 
 const Skillset = () => {
     return (
-        <div className='py-6 md:py-8 lg:py-12'>
-            <div className='flex items-center gap-2 pb-2 md:pb-4'>
-                <span>
-                    <MdArrowRight />
-                </span>
-                <p className='text-primary'>Skill set</p>
-            </div>
+        <>
+            <Heading contentTitle='Skill set' />
             <div className='flex gap-2 flex-wrap'>
                 {skills.map((skill) => (
                     <div
@@ -42,7 +37,7 @@ const Skillset = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </>
     );
 };
 

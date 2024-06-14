@@ -1,7 +1,6 @@
 import { ProjectProps } from '@/types';
-import { GoLinkExternal } from 'react-icons/go';
-import { FiGithub } from 'react-icons/fi';
-import { ExternalLink } from '..';
+import { ExternalLink } from '.';
+import { GithubIcon, LinkIcon } from './icons';
 
 const ProjectBox = ({
     title,
@@ -22,14 +21,14 @@ const ProjectBox = ({
                             href={github}
                             aria-label='View on GitHub'
                             className='text-secondary group-hover:text-primary transition hover:-translate-y-0.5'>
-                            <FiGithub className='size-[1.1rem]' />
+                            <GithubIcon className='size-[1.1rem]' />
                         </ExternalLink>
                         {demo && (
                             <ExternalLink
                                 href={demo}
                                 aria-label='View in browser'
                                 className='text-secondary group-hover:text-primary transition hover:-translate-y-0.5'>
-                                <GoLinkExternal className='size-5' />
+                                <LinkIcon className='size-5' />
                             </ExternalLink>
                         )}
                     </div>

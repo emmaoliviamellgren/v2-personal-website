@@ -18,3 +18,7 @@ export interface ExternalLinkProps
     ariaLabel?: string;
     children: React.ReactNode;
 }
+
+export interface HeadingProps {
+    contentTitle: string;
+}

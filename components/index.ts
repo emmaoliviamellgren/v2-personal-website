@@ -5,5 +5,6 @@ export { default as Skillset } from './skillset';
 export { default as Projects } from './projects';
 export { default as Socials } from './socials';
 
-export { default as ProjectBox } from './ui/projectBox';
-export { default as ExternalLink } from './utils/externalLink';
+export { default as ProjectBox } from './projectBox';
+export { default as ExternalLink } from './externalLink';
+export { default as Heading } from './heading';
