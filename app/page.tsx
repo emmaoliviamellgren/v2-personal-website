@@ -1,13 +1,14 @@
-import { About, Head, Navigation, Skillset, Projects } from '@/components';
+import { Head, Socials, About, Skillset, Projects, Footer } from '@/components';
 
 const IndexPage = () => {
     return (
         <div className='container'>
-            <Navigation />
             <Head />
+            <Socials />
             <About />
             <Skillset />
             <Projects />
+            <Footer />
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import { ProjectProps } from '@/types';
 import { GoLinkExternal } from 'react-icons/go';
 import { FiGithub } from 'react-icons/fi';
+import { ExternalLink } from '..';
 
 const ProjectBox = ({
     title,
@@ -17,27 +18,23 @@ const ProjectBox = ({
                         {title}
                     </h2>
                     <div className='flex gap-2 items-center pr-2'>
-                        <a
+                        <ExternalLink
                             href={github}
-                            target='_blank'
-                            rel='noopener noreferrer'
                             aria-label='View on GitHub'
                             className='text-secondary group-hover:text-primary transition hover:-translate-y-0.5'>
                             <FiGithub className='size-[1.1rem]' />
-                        </a>
+                        </ExternalLink>
                         {demo && (
-                            <a
+                            <ExternalLink
                                 href={demo}
-                                target='_blank'
-                                rel='noopener noreferrer'
                                 aria-label='View in browser'
                                 className='text-secondary group-hover:text-primary transition hover:-translate-y-0.5'>
                                 <GoLinkExternal className='size-5' />
-                            </a>
+                            </ExternalLink>
                         )}
                     </div>
                 </div>
-                <p className='text-secondary text-[15px]'>{description}</p>
+                <p className='text-primary-muted text-[15px]'>{description}</p>
             </div>
             <div className='flex gap-2 pt-6'>
                 {techStack.map((tech, index) => (

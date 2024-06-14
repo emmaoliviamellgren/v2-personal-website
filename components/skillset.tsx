@@ -3,15 +3,23 @@ import { MdArrowRight } from 'react-icons/md';
 type Skill = string[];
 
 const skills: Skill = [
-    'React',
-    'TypeScript',
     'Next.js',
-    'Tailwind CSS',
-    'Figma',
-    'Git',
+    'React',
+    'Vue',
+    'TypeScript',
+    'JavaScript',
     'HTML',
     'CSS',
-    'JavaScript',
+    'Sass',
+    'Tailwind',
+    'Node.js',
+    'Git',
+    'Framer-Motion',
+    'Firebase',
+    'MongoDB',
+    'Web Accessibility',
+    'Insomnia',
+    'Figma',
 ];
 
 const Skillset = () => {
@@ -28,7 +36,9 @@ const Skillset = () => {
                     <div
                         key={skill}
                         className='bg-gradient-to-t from-slate-700/10 to-slate-500/10 border border-slate-50/10 w-fit py-1 px-4'>
-                        <span className='text-primary-muted text-sm'>{skill}</span>
+                        <span className='text-primary-muted text-sm'>
+                            {skill}
+                        </span>
                     </div>
                 ))}
             </div>

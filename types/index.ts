@@ -5,3 +5,10 @@ export interface ProjectProps {
     github: string;
     demo?: string;
 }
+
+export interface ExternalLinkProps
+    extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+    href: string;
+    ariaLabel?: string;
+    children: React.ReactNode;
+}

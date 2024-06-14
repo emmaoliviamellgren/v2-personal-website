@@ -45,8 +45,18 @@
 
 p {
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 28px;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: var(--primary-muted);
 }
 
 h1 {
