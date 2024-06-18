@@ -64,7 +64,7 @@ const Head = () => {
                 </motion.p>
             </motion.div>
             <motion.span
-                className='block md:hidden'
+                className='block pt-2 md:hidden'
                 variants={bioTextVariants}>
                 <Socials
                     github='https://github.com/emmaoliviamellgren'
