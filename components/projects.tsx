@@ -39,13 +39,14 @@ const Projects = () => {
     return (
         <>
             <Heading contentTitle='Highlighted projects' />
-            {projects.map((project, index) => (
-                <div
-                    key={index}
-                    className='w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-6 relative pb-1'>
-                    <ProjectBox {...project} />
-                </div>
-            ))}
+            <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-6 relative pb-1'>
+                {projects.map((project, index) => (
+                    <ProjectBox
+                        key={index}
+                        {...project}
+                    />
+                ))}
+            </div>
         </>
     );
 };
