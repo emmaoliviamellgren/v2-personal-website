@@ -19,6 +19,13 @@ const projects: ProjectProps[] = [
         demo: 'https://taskwise.vercel.app/',
     },
     {
+        title: 'Nestify',
+        description:
+            'Nestify is a mock web application inspired by Airbnb, built using Next.js and Firebase with Stripe API for (mock) payments. It is a modern, scalable, and user-friendly application that allows users to browse (fictional) housings, book stays, and manage their bookings.',
+        techStack: ['Next.js', 'Typescript', 'Firebase', 'Stripe API'],
+        github: 'https://github.com/emmaoliviamellgren/nestify',
+    },
+    {
         title: 'E-commerce template',
         description:
             'As part of a school assignment, I created a full stack e-commerce template application built with React and Node.js. Users can browse through items, add them to their shopping cart and proceed to checkout process. By creating an account, users can see their order history of previously "purchased" items.',
@@ -32,14 +39,13 @@ const Projects = () => {
     return (
         <>
             <Heading contentTitle='Highlighted projects' />
-            <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-6 relative pb-1'>
-                {projects.map((project, index) => (
-                    <ProjectBox
-                        key={index}
-                        {...project}
-                    />
-                ))}
-            </div>
+            {projects.map((project, index) => (
+                <div
+                    key={index}
+                    className='w-full grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-6 relative pb-1'>
+                    <ProjectBox {...project} />
+                </div>
+            ))}
         </>
     );
 };
