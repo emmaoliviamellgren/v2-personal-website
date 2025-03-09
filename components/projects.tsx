@@ -31,7 +31,7 @@ const projects: ProjectProps[] = [
             'As part of a school assignment, I created a full stack e-commerce template application built with React and Node.js. Users can browse through items, add them to their shopping cart and proceed to checkout process. By creating an account, users can see their order history of previously "purchased" items.',
         techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
         github: 'https://github.com/emmaoliviamellgren/e-commerce',
-        demo: 'https://e-commerce-client-5p7v.onrender.com/',
+        demo: 'https://emmas-e-commerce.vercel.app/',
     },
 ];
 
