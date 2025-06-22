@@ -58,8 +58,7 @@ const Head = () => {
                 <motion.p
                     className='text-primary-muted text-base leading-7'
                     variants={bioTextVariants}>
-                    Currently studying frontend development at KYH, while
-                    mastering the art of crafting engaging user interfaces. I
+                    Currently mastering the art of crafting engaging user interfaces. I
                     {"'"}m eager to learn and grow in tech!
                 </motion.p>
             </motion.div>
