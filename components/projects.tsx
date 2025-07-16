@@ -19,12 +19,12 @@ const projects: ProjectProps[] = [
 		demo: "https://nestify-gamma.vercel.app/",
 	},
 	{
-		title: "E-commerce template",
+		title: "Performance Checker",
 		description:
-			'As part of a school assignment, I created a full stack e-commerce template application built with React and Node.js. Users can browse through items, add them to their shopping cart and proceed to checkout process. By creating an account, users can see their order history of previously "purchased" items.',
-		techStack: ["React", "Node.js", "Express", "MongoDB"],
-		github: "https://github.com/emmaoliviamellgren/e-commerce",
-		demo: "https://emmas-e-commerce.vercel.app/",
+			'A developer-focused accessibility and performance auditing tool built with Next.js. PerformanceChecker allows users to analyze any website’s performance using Google’s PageSpeed Insights API. The app provides a clear breakdown of key metrics such as performance, SEO, best practices, and accessibility.',
+		techStack: ["Next.js", "TypeScript", "PageSpeed Insights API"],
+		github: "https://github.com/emmaoliviamellgren/performance-checker",
+		demo: "https://performancechecker.vercel.app/",
 	},
 	{
 		title: "Weather of Today",
